@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFAF0"
+    tools:context=".laptop">
+
+    <TextView
+        android:id="@+id/lapasus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/laptop_asus"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imglapasus"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/lapasus"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/lapxiomi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/laptop_xiomi"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imglapxio"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/xiolap"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/laphp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/laptop_hp"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imglaphp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hplap"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/lapAcer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/laptop_acer"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imglapacer"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/acerr"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/lapmsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/laptop_msi"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imgmsi"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/msi"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+</LinearLayout>

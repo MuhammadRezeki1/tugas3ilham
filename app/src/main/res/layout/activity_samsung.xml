@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F0FFFF"
+    android:layout_height="match_parent"
+    tools:context=".samsung">
+
+    <TextView
+        android:id="@+id/samsung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Samsung"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imgsam"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/sm"
+        />
+
+    <TextView
+        android:id="@+id/exsam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/processor_cpu_speed_3_36ghz_2_8ghz_2ghz_cpu_type_octa_core_display_size_main_display_153_9mm_6_1full_rectangle_149_9mm_5_9_rounded_corners_resolution_main_display_2340_x_1080_fhd_technology_main_display_dynamic_amoled_2x_color_depth_main_display_16m_max_refresh_rate_main_display_120_hz"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idr_25_000_000_00"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+
+
+
+
+</LinearLayout>

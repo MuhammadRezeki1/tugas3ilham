@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFE0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ilham_gadget"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#DAA520"
+         />
+
+    <ImageView
+        android:id="@+id/tvhp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/hp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/tvlaptop"
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:src="@drawable/laptopp"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/headset"
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:src="@drawable/hs1"
+
+
+        />
+
+
+
+</LinearLayout>

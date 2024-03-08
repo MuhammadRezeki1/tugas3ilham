@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFE0"
+    tools:context=".hs">
+
+    <TextView
+        android:id="@+id/oppohs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/oppo_hs"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/hsopo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/opohs"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/xiomihs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xiomihs"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/hsxio"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/xiomihs"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/realmehs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/realme_hs"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/hsrealme"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/realme"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/irpod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AIRPOD"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/airpod"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/irpod"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/Nokia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nokia_earphone"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+
+    <ImageView
+        android:id="@+id/nokia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/nokia"
+        android:layout_gravity="center"
+        />
+
+
+
+
+</LinearLayout>

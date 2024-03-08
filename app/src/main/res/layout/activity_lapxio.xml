@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFF0"
+    tools:context=".lapxio">
+
+    <TextView
+        android:id="@+id/lapxiomi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAPTOP XIOMI"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imglapxio"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/xiolap"
+        />
+
+    <TextView
+        android:id="@+id/exlapxiio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/layar_tipe_layar_15_6_fhd_resolusi_1920_x_1080_ppi_141_kontrol_kecerahan_peredupan_dc_kecerahan_220_nit_umum_rasio_kontras_500_1_gamut_warna_ntsc_45_umum_sudut_tampilan_90_h_sistem_operasi_windows_10_home_prosesor_11th_generation_intel_core_i3_1115g4_up_to_4_1_ghz_2_cores_4_threads_6_mb_cache_11th_generation_intel_core_i5_11300h"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idr_13_000_000_00"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+
+
+
+</LinearLayout>

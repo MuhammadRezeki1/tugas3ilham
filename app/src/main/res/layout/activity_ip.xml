@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0FFFF"
+    tools:context=".ip">
+    
+    <TextView
+        android:id="@+id/iphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iphone"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imgip"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ip12"
+        />
+
+    <TextView
+        android:id="@+id/exip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/kinerja_chipset_apple_a14_bionic_yang_bertenaga_punya_sensor_uwb_kualitas_layar_dengan_resolusi_tajam_hasil_fotografi_memukau_hadir_dengan_konektivitas_magsafe_untuk_wireless_charging_yang_lebih_cepat_dan_mendukung_ekosistem_aksesoris"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idr_20_000_000_00"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+</LinearLayout>

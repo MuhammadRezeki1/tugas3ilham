@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE4E1"
+    tools:context=".hsxio">
+
+
+    <TextView
+        android:id="@+id/hsxio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/earphone_xiomi"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imgxiomi"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/xiomihs"
+        />
+
+    <TextView
+        android:id="@+id/exxiohs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/in_ear_headphones_frequency_response_20_20_000hz_sensitivity_98db_impedance_32_ohm_jack_3_5_mm_cable_length_1_25_meter"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDR.300.000,00"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+
+
+
+</LinearLayout>

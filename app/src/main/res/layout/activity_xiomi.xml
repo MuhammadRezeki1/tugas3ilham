@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5DC"
+    tools:context=".xiomi">
+
+    <TextView
+        android:id="@+id/xiomi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XIOMI"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imgxiomi"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/xio"
+        />
+
+    <TextView
+        android:id="@+id/exxio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/network_technology_gsm_hspa_lte_launch_announced_2018_february_14_status_available_released_2018_february_body_dimensions_158_6_x_75_4_x_8_1_mm_6_24_x_2_97_x_0_32_in_weight_181_g_6_38_oz_build_glass_front_gorilla_glass_aluminum_back_aluminum_frame"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDR.4.000.000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEBCD"
+    tools:context=".oppo">
+
+
+    <TextView
+        android:id="@+id/oppo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oppo"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imgopo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/opo"
+        />
+
+    <TextView
+        android:id="@+id/exopo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/platform_os_android_8_1_oreo_coloros_5_1_chipset_qualcomm_sdm450_snapdragon_450_14_nm_cpu_octa_core_1_8_ghz_cortex_a53_gpu_adreno_506_memory_card_slot_microsdxc_dedicated_slot_internal_16gb_2gb_ram_32gb_3gb_ram_64gb_4gb_ram_emmc_5_1"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDR.2.000.000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+
+</LinearLayout>

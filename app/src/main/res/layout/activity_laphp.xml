@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFE0"
+    tools:context=".laphp">
+
+    <TextView
+        android:id="@+id/laphp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAPTOP HP"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imglaphp"
+        android:layout_width="300dp"
+        android:layout_height="249dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hplap" />
+
+
+    <TextView
+        android:id="@+id/exlaphp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/amd_ryzen_5_processorwindows_11_home_single_language_hp_recommends_windows_11_pro_for_business14_hd_displayamd_radeon_graphics8_gb_ddr4_3200_ram512_gb_ssd_hard_drivebacklit_keyboard_hp_wolf_security"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idr_7_000_000_0"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+
+
+</LinearLayout>

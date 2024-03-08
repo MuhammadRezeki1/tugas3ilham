@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAD2"
+    tools:context=".lapacer">
+
+
+    <TextView
+        android:id="@+id/lapAcer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/laptopacer"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imglapacer"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/acerr"
+        />
+
+    <TextView
+        android:id="@+id/exlapacer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/ukuran_layar_35_6cm_14_39_6cm_15_6_total_memori_sistem_terpasang_4gb_8gb_16gb_model_pengontrol_grafik_geforce_rtx_2050_geforce_mx350_geforce_mx550_iris_xe_graphics_uhd_graphics_kapasitas_total_solid_state_drive_256gb_512gb"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idr_10_000_000_00"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+
+
+</LinearLayout>

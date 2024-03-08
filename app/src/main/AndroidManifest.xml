@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tugas3ilham"
+        tools:targetApi="31">
+        <activity
+            android:name=".hsnokia"
+            android:exported="false" />
+        <activity
+            android:name=".hsair"
+            android:exported="false" />
+        <activity
+            android:name=".hsrealme"
+            android:exported="false" />
+        <activity
+            android:name=".hsxio"
+            android:exported="false" />
+        <activity
+            android:name=".hsoppo"
+            android:exported="false" />
+        <activity
+            android:name=".msi"
+            android:exported="false" />
+        <activity
+            android:name=".lapacer"
+            android:exported="false" />
+        <activity
+            android:name=".laphp"
+            android:exported="false" />
+        <activity
+            android:name=".lapxio"
+            android:exported="false" />
+        <activity
+            android:name=".lapasus"
+            android:exported="false" />
+        <activity
+            android:name=".asus"
+            android:exported="false" />
+        <activity
+            android:name=".oppo"
+            android:exported="false" />
+        <activity
+            android:name=".xiomi"
+            android:exported="false" />
+        <activity
+            android:name=".samsung"
+            android:exported="false" />
+        <activity
+            android:name=".ip"
+            android:exported="false" />
+        <activity
+            android:name=".hs"
+            android:exported="false" />
+        <activity
+            android:name=".laptop"
+            android:exported="false" />
+        <activity
+            android:name=".hp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

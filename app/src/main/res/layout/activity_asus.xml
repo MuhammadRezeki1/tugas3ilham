@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8DC"
+    tools:context=".asus">
+
+    <TextView
+        android:id="@+id/asus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asus"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imgasus"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/asus"
+
+        />
+
+    <TextView
+        android:id="@+id/exasus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/platform_os_android_9_0_pie_rog_ui_chipset_qualcomm_sm8150_snapdragon_855_7_nm_cpu_octa_core_1x2_96_ghz_kryo_485_3x2_42_ghz_kryo_485_4x1_78_ghz_kryo_485_gpu_adreno_640_700_mhz_memory_card_slot_no_internal_128gb_8gb_ram_256gb_12gb_ram_512gb_12gb_ram_1tb_12gb_ram_ufs_3_0"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idr_30_000_000_00"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+
+
+</LinearLayout>
